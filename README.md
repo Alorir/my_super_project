@@ -1,19 +1,34 @@
-Task manager
+Task Manager
 
-Program pro správu úloh, který umožňuje uživatelům vytvářet, upravovat a spravovat úlohy. Uživatelé se mohou do programu přihlásit pomocí své e-mailové adresy a hesla a po přihlášení mohou vytvářet nové úkoly, aktualizovat stávající úkoly a označovat úkoly jako dokončené.
+⚠️ Project Status: Work in Progress
+This project is currently under development and not yet complete. New features and improvements are being actively worked on.
 
-Uživatelské rozhraní je vytvořeno pomocí Next.js. Úkoly lze třídit podle termínu dokončení, priority nebo stavu dokončení a uživatelé mohou úkoly filtrovat podle kategorií nebo vyhledávat konkrétní úkoly.
+Overview
 
-Program používá REST API pro správu úloh a uživatelských účtů. Toto rozhraní API umožňuje frontendu zadávat požadavky na backend a získávat data, jako jsou podrobnosti o úkolu a informace o uživateli.
+Task Manager is a web application designed to help users create, update, and manage their tasks efficiently. Users can register and log in with their email and password to access personalized task management features. Once logged in, they can:
 
-Features:
+Create new tasks
 
-Autentizace a autorizace uživatele
+Update existing tasks
 
-Vytvoření a správa úkolů
+Mark tasks as completed
 
-Filtrování a třídění úkolů
+The application provides sorting options by deadline, priority, or completion status. Tasks can also be filtered by categories or searched by keywords for quick access.
 
-Oznámení o úkolech a připomenutí
+Technology
 
-Sdílení úkolů a spolupráce
+Frontend: Built with Next.js, offering a clean and responsive user interface.
+
+Backend: Powered by a REST API that handles task and user management. The API enables seamless communication between the frontend and backend, returning data such as task details and user information.
+
+Planned Features
+
+✅ User authentication and authorization
+
+✅ Task creation and management
+
+✅ Task filtering and sorting
+
+🔄 Task notifications and reminders (in progress)
+
+🔄 Task sharing and collaboration (planned)
