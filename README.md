@@ -1,6 +1,6 @@
 # Task Manager
 
-⚠️ Project Status: Work in Progress
+⚠️ Project Status: Work in Progress  
 This project is currently under development and not yet complete. New features and improvements are being actively worked on.
 
 ## Overview
